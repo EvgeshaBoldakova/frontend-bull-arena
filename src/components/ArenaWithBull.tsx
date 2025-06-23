@@ -7,9 +7,9 @@ interface ArenaWithBullProps {
 
 const ArenaWithBull = ({ matador }: ArenaWithBullProps) => {
     const [applause, setApplause] = useState(0);
-    const [screemJoy, setScreamJoy] = useState(0);
+    const [screamJoy, setScreamJoy] = useState(0);
     const [isVisible, setIsVisible] = useState(true);
-    const [matadorPosition, setMatarodPosition] = useState(4);
+    const [matadorPosition, setMatadorPosition] = useState(4);
     const [bullPosition, setBullPosition] = useState(8);
 
     useEffect(() => {
@@ -52,39 +52,39 @@ const ArenaWithBull = ({ matador }: ArenaWithBullProps) => {
         <div className='arena'>
             <div className={"duel"}>
                 <div className="cell">
-                    {matadorPosition === 0 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 0 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 0 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 1 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 1 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 1 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 2 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 2 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 2 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 3 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 3 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 3 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 4 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 4 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 4 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 5 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 5 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 5 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 6 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 6 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 6 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 7 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 7 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 7 && <Bull />}
                 </div>
                 <div className="cell">
-                    {matadorPosition === 8 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatarodPosition, matadorPosition })}</div> : null}
+                    {matadorPosition === 8 && isVisible ? <div className='matador'>{React.cloneElement(matador, { applause, setMatadorPosition, matadorPosition })}</div> : null}
                     {bullPosition === 8 && <Bull />}
                 </div>
             </div>

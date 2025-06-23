@@ -1,0 +1,23 @@
+.matadorYoung {
+    background-image: url("../../assets/image/matadorYoung.png");
+    height: 100%;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.matadorOld {
+    background-image: url("../../assets/image/matadorOld.png");
+    height: 100%;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.matador > div {
+    height: 200px;
+    width: 100%;
+}
+
+
+
